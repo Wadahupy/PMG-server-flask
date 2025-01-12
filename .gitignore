@@ -1,0 +1,47 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask instance folder
+instance/
+
+# Flask configuration
+config.py
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# coverage
+.coverage
+.coverage.*
+nosetests.xml
+test-*.xml
+
+# mypy
+.mypy_cache/
+
+# pytest
+.cache/
